@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registration_title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- ФИО -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/full_name"/>
+
+        <EditText
+            android:id="@+id/fullNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/full_name"
+            android:inputType="textPersonName"/>
+
+        <!-- Логин -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/loginEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/login"
+            android:inputType="text"/>
+
+        <!-- Email -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"/>
+
+        <!-- Телефон -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/phone"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/phoneEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="+380XXXXXXXXX"
+            android:inputType="phone"/>
+
+        <!-- Пароль -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"/>
+
+        <!-- Повтор пароля -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/repeat_password"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/repeatPasswordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/repeat_password"
+            android:inputType="textPassword"/>
+
+        <!-- Дата рождения -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/birth_date"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/birthDateEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="dd.MM.yyyy"
+            android:inputType="date"
+            android:focusable="false"/>
+
+        <!-- Ингредиенты для борща -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/borscht_ingredients"
+            android:layout_marginTop="8dp"/>
+
+        <Spinner
+            android:id="@+id/ingredientsSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Согласие -->
+        <CheckBox
+            android:id="@+id/personalDataCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/personal_data"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Кнопка регистрации -->
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Борщ</string>
+    <string name="registration_title">Реєстрація</string>
+    <string name="full_name">ПІБ</string>
+    <string name="login">Логін</string>
+    <string name="email">Email</string>
+    <string name="phone">Телефон</string>
+    <string name="password">Пароль</string>
+    <string name="repeat_password">Повторіть пароль</string>
+    <string name="birth_date">Дата народження</string>
+    <string name="borscht_ingredients">Інгредієнти для борщу</string>
+    <string name="personal_data">Згода на обробку персональних даних</string>
+    <string name="register">Зареєструватися</string>
+    <string name="error_field">Поле заповнено невірно</string>
+    <string name="error_password_mismatch">Паролі не співпадають</string>
+    <string name="error_checkbox">Потрібна згода</string>
+
+    <string-array name="borscht_ingredients_list">
+        <item>Буряк</item>
+        <item>Капуста</item>
+        <item>Картопля</item>
+        <item>Морква</item>
+        <item>Цибуля</item>
+        <item>Часник</item>
+        <item>Томатна паста</item>
+        <item>М\'ясо (яловичина)</item>
+        <item>Зелень</item>
+        <item>Сметана</item>
+    </string-array>
+</resources>
