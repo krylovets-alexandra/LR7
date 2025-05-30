@@ -133,7 +133,6 @@ public class MainActivity extends AppCompatActivity {
 
         if (isValid) {
             Toast.makeText(this, "Регистрация успешна!", Toast.LENGTH_SHORT).show();
-            // Здесь можно добавить логику сохранения данных
         }
     }
 
